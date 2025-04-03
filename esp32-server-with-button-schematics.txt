@@ -1,0 +1,17 @@
+Option 1: Basic LED Circuit (for beginners)
+Connections:
+
+ESP32 GPIO 2 → 220Ω Resistor → Anode of LED
+
+Cathode of LED → GND
+
+This is simple, safe, and great for demonstration.
+
+Option 2: Relay-Controlled AC Light (advanced users)
+Connections:
+
+GPIO 2 → IN of Relay Module
+
+VCC of Relay Module → 5V
+
+GND of Relay Module → GND
